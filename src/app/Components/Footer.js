@@ -1,22 +1,25 @@
 import React from 'react';
+import Image from "next/image";
 
 function Footer() {
     return (
         <div className="fixed inset-x-0 bottom-0">
-            <img
+            <Image
                 src="/img/redForm.svg"
+                width={144}
+                height={136}
                 className="fixed"
                 style={{
-                    width: '144px',
-                    height: '136px',
                     left: '259px',
                     bottom: '-17.5px',
                     zIndex: -1,
                 }}
                 alt=""
             />
-            <img
+            <Image
                 src="/img/yellowForm.svg"
+                width={124}
+                height={136}
                 className="fixed bottom-0 right-0"
                 style={{
                     width: '124px',
@@ -27,7 +30,10 @@ function Footer() {
                 }}
                 alt=""
             />
-            <img src="/img/wave.svg" className="" alt="" />
+            <Image src="/img/wave.svg"
+                   width={1920}
+                   height={121}
+                   className="" alt="" />
         </div>
     );
 }
