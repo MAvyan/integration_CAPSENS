@@ -10,6 +10,8 @@ function Footer() {
                 height={136}
                 className="fixed"
                 style={{
+                    width: '144px',
+                    height: '136px',
                     left: '259px',
                     bottom: '-17.5px',
                     zIndex: -1,

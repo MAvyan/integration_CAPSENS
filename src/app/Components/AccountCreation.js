@@ -28,19 +28,23 @@ function AccountCreation() {
                     </p>
                 </div>
                 <div className='mx-auto ml-20 mr-20 mt-10 mb-10 flex justify-center items-center'>
-                    <Image src="/img/line.svg"
-                           width={313}
-                           height={0}
-                           className="mr-6"
-                           alt="" />
+                    <Image
+                        src="/img/line.svg"
+                        width={313}
+                        height={0}
+                        className="w-full h-auto mr-6"
+                        alt=""
+                    />
                     <p className="text-gray-500 text-lg font-montserrat">
                         ou
                     </p>
-                    <Image src="/img/line.svg"
-                           width={313}
-                           height={0}
-                           className="ml-6"
-                           alt="" />
+                    <Image
+                        src="/img/line.svg"
+                        width={313}
+                        height={0}
+                        className="w-full h-auto ml-6"
+                        alt=""
+                    />
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8'>
                     <div className='bg-white border border-gray-500 rounded-lg p-4 md:p-8 flex flex-col items-center'>
