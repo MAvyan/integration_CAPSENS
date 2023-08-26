@@ -5,10 +5,10 @@ function AccountCreation() {
     return (
         <div className='bg-white border border-gray-500 rounded-lg pb-20 pt-5 px-4 lg:pl-240 lg:pr-240 ml-2 lg:ml-20 mr-2 lg:mr-20 mt-5 mb-14'>
             <div className='flex flex-col items-center p-4 md:p-8 mt-4 md:mt-0'>
-                <p className="text-4xl text-gray-700 font-semibold font-montserrat mb-5 text-center">
+                <p className="text-4xl text-gray-700 font-semibold font-montserrat mb-5 text-center pt-4">
                     Je crée mon compte <span className="text-red-500">en tant que ...</span>
                 </p>
-                <p className="text-base tracking-wider leading-6 text-gray-700 font-normal font-montserrat text-center pb-5">
+                <p className="text-base tracking-wider leading-6 text-gray-700 font-normal font-montserrat text-center pb-10">
                     Choisissez dès maintenant si vous souhaitez investir en tant que particulier
                     <br />ou en tant que personne morale.
                 </p>
